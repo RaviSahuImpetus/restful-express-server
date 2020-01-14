@@ -1,0 +1,33 @@
+{
+  "name": "@ravisahu88/restful-express-server",
+  "version": "1.0.0",
+  "description": "boilerplate for restful API express server",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RaviSahuImpetus/restful-express-server.git"
+  },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/",
+    "always-auth": true
+  },
+  "keywords": [],
+  "author": "Ravi Sahu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RaviSahuImpetus/restful-express-server/issues"
+  },
+  "homepage": "https://github.com/RaviSahuImpetus/restful-express-server#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "compression": "^1.7.4",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-correlation-id": "^1.3.1",
+    "helmet": "^3.21.2"
+  }
+}
