@@ -103,6 +103,10 @@ let Index = class RestfulExpressServer {
     router(){
         return express.Router();
     }
+
+    static(folder){
+        express.static(folder);
+    }
 };
 
 module.exports = {
