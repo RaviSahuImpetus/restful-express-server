@@ -105,7 +105,7 @@ let Index = class RestfulExpressServer {
     }
 
     static(folder){
-        express.static(folder);
+        this.app.use(express.static(folder));
     }
 };
 
