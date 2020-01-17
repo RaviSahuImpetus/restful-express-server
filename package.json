@@ -1,6 +1,6 @@
 {
   "name": "@ravisahu88/restful-express-server",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "boilerplate for restful API express server",
   "main": "index.js",
   "scripts": {
